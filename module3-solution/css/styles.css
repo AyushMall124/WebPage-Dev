@@ -1,0 +1,111 @@
+    * {
+        box-sizing: border-box;
+    }
+    
+    body {
+        font-size: 16px;
+        color: #ffffff;
+    }
+    
+    h1 {
+        color: black;
+        font-style: bold;
+    }
+    /* Header */
+    
+    #header-nav {
+        background-color: darkslategray;
+        border-radius: 0;
+        border: 0;
+    }
+    
+    .navbar-brand {
+        padding-top: 25px;
+    }
+    
+    .navbar-brand a h1 {
+        /* Restaurant name */
+        /* float: left; */
+        font-size: 1.5em;
+        color: lightcyan;
+        font-weight: bold;
+        text-shadow: 1px 1px 1px #222;
+        margin-top: 0;
+        /* margin-bottom: 0; */
+        line-height: 1;
+        margin-bottom: 15px;
+    }
+    
+    .navbar-brand a:hover,
+    .navbar-brand a:focus {
+        text-decoration: none;
+    }
+    
+    #nav-list {
+        margin-top: 20px;
+        margin-bottom: 0px;
+    }
+    
+    #nav-list a {
+        /* text-align: center; */
+        /* font-size: 1.5em; */
+        /* background-color: white; */
+        border: 1px solid black;
+    }
+    
+    #nav-list a:hover {
+        color: grey;
+    }
+    
+    #nav-list a span {
+        font-size: 1.2em;
+    }
+    
+    .navbar-toggle button.navbar-toggle {
+        clear: both;
+        margin-top: -30px;
+        /* margin-bottom: 0px; */
+    }
+    
+    button {
+        margin-bottom: 0px;
+        size: 120%;
+    }
+    
+    .navbar-header {
+        padding-bottom: 10px;
+    }
+    
+    #nav-list {
+        margin-top: 0;
+        border: 1px solid black;
+    }
+    
+    h3 {
+        color: black;
+        font-style: bold;
+        margin-bottom: 30px;
+    }
+    /* #chicken,
+#beef,
+#sushi {} */
+    
+    .block {
+        margin-bottom: 20px;
+        margin-right: 10px;
+        background-color: lightgray;
+        border: 1px solid black;
+    }
+    
+    .block>div {
+        margin-left: 10px;
+        margin-right: 10px;
+        /* background-color: lightgray; */
+        /* border: 1px solid black;*/
+    }
+    
+    #bod {
+        margin-left: 5px;
+        margin-right: 5px;
+        width: 100%;
+    }
